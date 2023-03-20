@@ -3,13 +3,12 @@ package com.example.restapi.controller;
 import com.example.restapi.entity.Alumno;
 import com.example.restapi.service.AlumnoService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-public class AlumnoController {
+public class AlumnoAPIController {
     @Autowired
     private AlumnoService alumnoService;
 
